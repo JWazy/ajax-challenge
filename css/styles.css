@@ -210,7 +210,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #53507E;  //purple
+  background-color: #53507E;  /*purple*/
 }
 button,
 select,
@@ -299,7 +299,7 @@ input {
   font-size: 18px;
   color: #FFFFFF;
   padding-left: 0;
-  width: 100%;
+  width: 390px;
 }
 .input-left {
   width: 45%;
@@ -338,9 +338,11 @@ input {
     100%  {box-shadow: 0 0 30px rgba(255,142,216,.75);}
 }
 #custom-button {
-  height: 80px;
+  margin: 10px;
+  height: 40px;
+  width: 195px;
   padding: 0px 45px;
-  border-radius: 40px;
+  border-radius: 10px;
   box-shadow: 0 0 30px rgba(255,142,216,.75);
   background-color: #FF8ED8;
   font-family: 'Raleway', sans-serif;
@@ -380,14 +382,14 @@ input {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 24px;
-  color: #FF8ED8; //pink
+  color: #FF8ED8;
   margin-bottom: 35px;
 }
 .about-us-body {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-size: 18px;
-  color: #5C5C5C; //gray
+  color: #5C5C5C;
   max-width: 480px;
 }
 #hidden-warning-message {
@@ -400,7 +402,7 @@ input {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-size: 18px;
-  color: #5C5C5C; //gray
+  color: #5C5C5C;
   max-width: 480px;
   text-align: right;
 }
@@ -444,7 +446,7 @@ nav {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 12px;
-  color: #B1AEDE; //light purple
+  color: #B1AEDE;
 }
 ul {
   list-style-type: none;
@@ -454,7 +456,7 @@ li {
   margin-left: 35px;
 }
 .nav-link {
-  color: #B1AEDE; //light purple
+  color: #B1AEDE;
 }
 .nav-link:hover {
   color: #FFFFFF;
@@ -485,7 +487,7 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 12px;
-  color: #B1AEDE; //light purple
+  color: #B1AEDE;
   margin: 10px 35px 0 0;
 }
 .social {
@@ -504,6 +506,26 @@ footer {
   font-size: 12px;
   color: #B1AEDE;
   text-align: center;
+}
+.search-wrapper {
+  text-align: center;
+  margin: 35px;
+}
+#search-results {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.results {
+  display: inline-block;
+  margin: 35px;
+}
+img.results {
+  width: 100px;
+  height: 100px;
+}
+a.results {
+  color: #ff8ed8;
 }
 
 @media (max-width: 595px) {
